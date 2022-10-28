@@ -10,4 +10,7 @@
  * Using single line comments write what the output would display.
  */
 
+var electronics = ["mouse", "keyboard", "monitor"];
+
+electronics.map(( x, index ) => console.log(`This item is a ${x}. Then index is ${index}.`));
 
